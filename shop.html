@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFAS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="navigation">
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li>MAGAZENE</li>
+                </ul>
+            </nav>
+            <div class="userInfo">
+                <div class="basket"><input type="image" class="cart" src=".\images\Cart.png"></button>
+                    <span class="CartItemsDisp"></span>
+                </div>
+                <a href="" class="login">LOGIN</a>
+            </div>
+        </div>
+        <div class="searchSort">
+            <div class="search">
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="sort">
+                <select name="sort" id="sort">
+                    <option value="Default">Default</option>
+                    <option value="Low to High">Low to High</option>
+                    <option value="High to Low">High to Low</option>
+                </select>
+            </div>
+        </div>
+        <div class="main">
+            <div class="filter">
+                <div class="colors">
+                    <p class="dropDownColors">colors<span>></span></p>
+
+                    <div class="colorsFiltered">
+                    </div>
+                </div>
+                <div class="types">
+                </div>
+                <div class="rangeFilter">
+                    <input type="text" name="min" id="minPrice">
+                    <input type="text" name="max" id="maxPrice">
+                    <button>filter</button>
+                    <span id="range">0</span>
+                    <input type="range" name="priceRange" min="0" max="1000" id="priceRange">
+                </div>
+            </div>
+            <div class="productsCont">
+            </div>
+            <div class="viewProduct">
+            </div>
+        </div>
+        <footer>
+            <ul class="bottonNav">
+                <li>ABOUT US</li>
+                <li>HOW CAN WE HELP</li>
+                <li>SHOP BY ROOM</li>
+                <li>SHOP BY STYLE</li>
+            </ul>
+            <ul class="social">
+                <li>INSTA</li>
+                <li>fb</li>
+                <li>TWIt</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="products.js"></script>
+    <script src="index.js"></script>
+    <script>
+        "filters.js"
+    </script>
+</body>
+
+</html>
